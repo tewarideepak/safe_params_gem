@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+# CLI entrypoint for SafeParams
+require 'safe_params/cli'
+SafeParams::CLI.start(ARGV)

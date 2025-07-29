@@ -1,6 +1,7 @@
 Gem::Specification.new do |spec|
   spec.name          = "safe_params"
-  spec.version       = "0.1.1"
+  spec.version       = "0.1.3"
+  spec.required_ruby_version = '>= 2.7'
   spec.authors       = ["Deepak Tewari"]
   spec.email         = ["tewarid69@gmail.com"]
 
@@ -14,8 +15,8 @@ Gem::Specification.new do |spec|
   spec.bindir        = "bin"
   spec.executables   = ['safe_params']
 
-  spec.add_dependency "rails"
-  spec.add_development_dependency "rspec"
+  spec.add_dependency "rails", ">= 5.0"
+  spec.add_development_dependency "rspec", ">= 3.0"
 
   spec.metadata = {
     "source_code_uri" => "https://github.com/tewarideepak/safe_params",

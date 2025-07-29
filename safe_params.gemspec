@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "safe_params"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["Deepak Tewari"]
   spec.email         = ["tewarid69@gmail.com"]
 
